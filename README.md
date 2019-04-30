@@ -210,6 +210,6 @@ mvn clean package -DskipTests
 - 启动/停止
 ```
 bin/zeppelin-daemon.sh --config conf/ start
-bin/zeppelin-daemon.sh --config stop
+bin/zeppelin-daemon.sh --config conf/ stop
 ```
 
